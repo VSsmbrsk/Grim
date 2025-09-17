@@ -1,0 +1,74 @@
+@media (max-width: 1024px){
+    .banner__info{
+        padding: 0 20px;
+    }
+    .concerts{
+        margin: 0 20px 100px;
+    }
+    .history{
+        padding: 50px 20px;
+    }
+    .contact__info{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer__wrapper{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 834px){
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media (max-width: 440px){
+    .concerts__info,
+    .concerts__info-item{
+        padding: 7px;
+        font-size: 10px;
+    }
+    .btn-red{
+        font-size: 8px;
+        display: inline-block;
+        text-align: center;
+        padding: 5px 5px;
+    }
+    .history__content{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .history__content img{
+        max-width: 432px;
+        width: 100%;
+    }
+    .contact__form{
+        padding: 0 20px;
+    }
+    .contact__input{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    iframe{
+        max-width: 500px;
+        width: 100%;
+    }
+    .footer__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media (max-width: 390px){
+    .headbox{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer__info{
+        text-align: center;
+    }
+}
