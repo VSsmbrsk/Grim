@@ -4,6 +4,7 @@
   --text-main: #fff;
   --title-color: #e5e5e5;
   --color-dark: #000;
+  --color-gray: #61626a;
   --border-color: rgba(255, 255, 255, 0.15);
   --transition: 0.3s ease;
 }
@@ -123,6 +124,10 @@ nav a {
   font-size: 15px;
   font-weight: 400;
   color: #acacac;
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--text-main);
 }
 .banner {
   background:
@@ -162,9 +167,10 @@ nav a {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  transition: var(--transition);
 }
 .btn-yellow:hover {
-  background-color: var(--text-main);
+  transform: scale(1.05);
 }
 
 .concerts-card {
@@ -213,7 +219,7 @@ nav a {
 }
 
 .concerts-header {
-  color: var(--border-color);
+  color: var(--color-gray);
   font-size: 0.9rem;
   border-bottom: 1px solid var(--border-color);
 }
@@ -286,7 +292,7 @@ nav a {
   text-align: center;
 }
 .contact h6 {
-  color: #61626a;
+  color: var(--color-gray);
   margin-bottom: 30px;
   text-align: center;
   font-size: 15px;
